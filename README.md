@@ -12,13 +12,15 @@ xkb keyboard layout for developers that require German umlauts.
   * Capslock + h deletes a character
 
 ## Reasoning
-I created this keyboard layout in order to replace the default German layout,
-which is very impractical for programming.
-Since I don't believe constantly switching from US to DE and back is a viable
-solution I made this custom layout that allows me to use all the bracket keys
-in a reasonable manner as well as typing all German umlauts (and even the
-capital ẞ, which is a (newish) part of the German language but the normal German
-keyboard layout doesn't have).
+Since the German keyboard layout is very impractical for programming, and I
+don't believe in switching back and forth bwetween layouts, I simply took the
+US layout and added Umlauts and a few other things to it.
+
+This allows me to use all those precious braces and brackets in a reasonable
+manner as well as typing all German umlauts and even the uppercase ẞ, which is
+a (newish) part of the German language that the regular German keyboard layout
+doesn't have.
+
 
 ## Drawbacks
 * You lose the expected functionality of your Capslock key and can't easily
@@ -33,7 +35,7 @@ you need to know.
 ### Installing
 Download [rukb](rukb) to your xkb/symbols folder, e.g.:
 ```
-sudo wget -P /usr/share/X11/xkb/symbols https://github.com/r-unruh/keyboard/raw/master/rukb
+sudo wget -P /usr/share/X11/xkb/symbols https://raw.githubusercontent.com/r-unruh/keyboard/main/rukb
 
 ```
 Make sure it is downloaded under the correct file name - especially if you're
